@@ -48,7 +48,7 @@ This pattern applies to:
 - paste() for formatted clinical output
 - Healthcare data modeling in R
 
-- ### medication_classifier.R
+- ### medication_classifier
 - Classifies five medications by daily dose 
   in milligrams using conditional branching
 - Demonstrates boundary condition logic —
