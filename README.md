@@ -48,6 +48,20 @@ This pattern applies to:
 - paste() for formatted clinical output
 - Healthcare data modeling in R
 
+- ### medication_classifier.R
+- Classifies five medications by daily dose 
+  in milligrams using conditional branching
+- Demonstrates boundary condition logic —
+  a critical concept in clinical decision 
+  support rule building
+- Classification rules:
+  - Above 500mg — High dose, verify order
+  - Between 50mg and 500mg — Standard dose
+  - Below 50mg — Low dose
+- Highlights how >= and <= boundary operators
+  affect patient safety outcomes in real 
+  Epic CDS alert logic
+
 ## Built With
 
 - R 4.6.0
